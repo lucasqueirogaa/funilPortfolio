@@ -1,0 +1,128 @@
+body {
+  background-color: #191919;
+  color: #d4d4d4;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  padding: 30px 40px;
+  display: flex;
+  align-items: center;
+}
+.logoHeader {
+  width: 200px;
+  margin-right: 40px;
+}
+.btnHeader {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  margin: 0px 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btnHeader:hover {
+  font-size: 22px;
+}
+.main-content {
+  padding: 80px 60px;
+  display: flex;
+  gap: 20px;
+}
+.left-div {
+  min-width: 250px;
+  height: 380px;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+}
+.left-image {
+  width: 100%;
+  border-radius: 5px;
+}
+.left-div-texts {
+  padding: 20px;
+}
+.name {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.stack {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #393939;
+  color: white;
+  /* padding: 5px; */
+  text-align: center;
+  margin: 16px 0px;
+}
+.number {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+.email {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.about-me {
+  border: 1px solid #bbb;
+  border-radius: 5px;
+}
+.about-me-title {
+  padding: 10px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.about-me-description {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 20px;
+}
+.experience {
+  border: 1px solid #bbb;
+  border-radius: 5px;
+
+  margin-top: 30px;
+}
+.experience-title {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+.experience-div {
+  margin: 40px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.experience-image {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+}
+.experience-title-div {
+  display: flex;
+  gap: 10px;
+}
+.experience-title1 {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.experience-title2-background {
+  background-color: #393939;
+  padding: 3px 10px;
+  border-radius: 3px;
+}
+.experience-title2 {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+.experience-description {
+  margin-top: 20px;
+}
